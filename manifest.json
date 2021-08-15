@@ -1,6 +1,10 @@
 {
       "name": "tabexit",
-      "description": "close tabs",
+      "description": "Exit prolongly opened tabs.",
       "version": "1.0",
-      "manifest_version": 3
+      "manifest_version": 3,
+      "background": {
+            "service_worker": "background.js"
+      },
+      "permissions": ["storage"]
 }
